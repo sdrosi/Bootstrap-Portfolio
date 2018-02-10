@@ -57,9 +57,14 @@ p {
 
 footer {
     background-color: #aaaaaa;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
+    border-style: solid;
+    border-width: 10px 0px 0px 0px;
+    border-color: #4aaaa5;
+    padding: 15px;
+    margin-top: 20px;
 }
 
 /* I know I need to make the card div to scale to 100% when the screen gets smaller, but I haven't quite gotten it to work :/ */
