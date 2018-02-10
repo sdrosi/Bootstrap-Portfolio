@@ -1,0 +1,72 @@
+/* [class*="col-"], .col {
+border: 1px dashed #ddd;       
+} */
+
+h1 {
+    background-color: #4aaaa5;
+    color: #fafafa;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h2 {
+    padding: 10px;
+    margin-bottom: -16px;
+}
+
+body {
+    background-image: url("https://raw.githubusercontent.com/sdrosi/Bootstrap-Portfolio/master/assets/intersection.png");
+}
+
+#nav {
+    background-color: #ffffff;
+    color: #777777;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    margin-bottom: 10px;
+    }
+
+#main {
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+p {
+    line-height: 1.4;
+}
+.col-8 {
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+}
+
+.footer-block {
+    position: absolute;
+    bottom: 0;
+}
+
+.nav-link {
+       color: #aaaaaa;
+    }
+
+footer {
+    background-color: #aaaaaa;
+}
+
+/* I know I need to make the card div to scale to 100% when the screen gets smaller, but I haven't quite gotten it to work :/ */
+@media only screen and (max-width: 766px) {
+    #connect {
+        width: 100%;
+        background-color: inherit;
+        margin-left: -13px;
+    } 
+}
+
+
+
